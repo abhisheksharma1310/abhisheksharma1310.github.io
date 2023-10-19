@@ -1,0 +1,28 @@
+import React from "react";
+import SocialIcons from "./SocialIcons";
+import Form from "./Form";
+
+const Contact = () => {
+  return (
+    <section id="contact" className="flex-col">
+      <div className="s-head heading-w">
+        <h2>Contact</h2>
+      </div>
+      <div className="flex-col flex-center">
+        <p>Have a question? Want to hire? Just want to chat?</p>
+        <p>Reach out to me on</p>
+      </div>
+      <div className="flex-col flex-center">
+        <SocialIcons />
+      </div>
+      <div className="flex-col flex-center">
+        <p>Send me a message</p>
+      </div>
+      <div className="flex-col flex-center">
+        <Form/>
+      </div>
+    </section>
+  );
+};
+
+export default Contact;
