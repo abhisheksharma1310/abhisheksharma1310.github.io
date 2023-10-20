@@ -99,7 +99,7 @@
 .card {
   display: flex;
   flex-direction: row;
-  justify-content: start;
+  justify-content: flex-start;
   align-items: center;
   gap: 1rem;
   width: 75%;
@@ -361,6 +361,25 @@ section {
   z-index: 98;
 }
 
+/*
+* Notification
+*/
+.notify {
+  position: fixed;
+  width: 400px;
+  height: 200px;
+  top: 50%;
+  left: 50%;
+  margin-top: -100px; /* Negative half of height. */
+  margin-left: -200px; /* Negative half of width. */
+  background-color: var(--secondary-color4);
+  color: var(--primary-bg3);
+  border: 2px solid var(--primary-text1);
+  border-radius: 15px;
+  text-align: center;
+  padding: 1rem;
+}
+
 /* css for small device */
 @media screen and (max-width: 768px) {
   /* header */
@@ -418,5 +437,12 @@ section {
   /* contact */
   #contact {
     padding: 1rem;
+  }
+  /* notify */
+  .notify {
+    width: 200px;
+    height: 200px;
+    margin-top: -100px; /* Negative half of height. */
+    margin-left: -100px; /* Negative half of width. */
   }
 }

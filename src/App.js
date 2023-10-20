@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import Header from "./components/Header";
 import Home from "./components/Home";
 import Experience from "./components/Experience";
@@ -10,9 +10,11 @@ import Footer from "./components/Footer";
 
 import "./App.css";
 import Theme from "./components/Theme";
+import Notification from "./components/Notification";
 
 function App() {
   const [cssProp, setCssProp] = useState({});
+  const [notify, setNotify] = useState(false);
 
   const homeRef = useRef(null);
   const experienceRef = useRef(null);
@@ -40,10 +42,21 @@ function App() {
     }
   };
 
+  const handleNotification = () => {
+    setTimeout(() => {
+      setNotify(false);
+    }, 5000);
+  };
+
+  useEffect(() => {
+    if (notify) handleNotification();
+  }, [notify]);
+
   return (
     <div className="app-main" style={cssProp}>
       <Header scrollToSection={scrollToSection} />
       <div id="progress"></div>
+      {notify && <Notification />}
       <div className="app">
         <div ref={homeRef}>
           <Home />
@@ -62,7 +75,7 @@ function App() {
         </div>
       </div>
       <div ref={contactRef}>
-        <Contact />
+        <Contact setNotify={setNotify} />
       </div>
       <Footer />
       <Theme setCssProp={setCssProp} />

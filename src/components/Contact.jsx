@@ -2,7 +2,7 @@ import React from "react";
 import SocialIcons from "./SocialIcons";
 import Form from "./Form";
 
-const Contact = () => {
+const Contact = ({setNotify}) => {
   return (
     <section id="contact" className="flex-col">
       <div className="s-head heading-w">
@@ -19,7 +19,7 @@ const Contact = () => {
         <p>Send me a message</p>
       </div>
       <div className="flex-col flex-center">
-        <Form/>
+        <Form setNotify={setNotify}/>
       </div>
     </section>
   );
