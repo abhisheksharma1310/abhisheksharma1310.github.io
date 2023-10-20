@@ -2,6 +2,13 @@ import React, { useEffect, useState } from "react";
 import Dark from "../assets/icons/dark.svg";
 import Bright from "../assets/icons/bright.svg";
 
+const themeColor = {
+  "--primary-bg1": "#eeeeee",
+  "--primary-bg3": "#ffffff",
+  "--primary-text2": "#111111",
+  "--primary-text3": "#444444"
+}
+
 const Theme = ({ setCssProp }) => {
   const [isDark, setIsDark] = useState(false);
 
@@ -12,17 +19,17 @@ const Theme = ({ setCssProp }) => {
   const handleTheme = () => {
     if (isDark) {
       setCssProp({
-        "--ptc": "#ffffff",
-        "--pbgc": "#111111",
-        "--phc": "#111111",
-        "--pt1": "#ffeeee"
+        "--ptc": themeColor["--primary-bg3"],
+        "--pbgc": themeColor["--primary-text2"],
+        "--phc": themeColor["--primary-text2"],
+        "--pt1": themeColor["--primary-bg1"],
       });
     } else {
       setCssProp({
-        "--ptc": "#111111",
-        "--pbgc": "#eeeeee",
-        "--phc": "#ffffff",
-        "--pt1": "#444444"
+        "--ptc": themeColor["--primary-text2"],
+        "--pbgc": themeColor["--primary-bg1"],
+        "--phc": themeColor["--primary-bg3"],
+        "--pt1": themeColor["--primary-text3"]
       });
     }
   };

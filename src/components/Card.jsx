@@ -4,7 +4,7 @@ import as1 from "../assets/images/restaurant.jpg";
 const Card = () => {
   return (
     <article className="card">
-      <img className="card-img" src={as1} alt="as"/>
+      <img className="card-img reveal-image" src={as1} alt="as"/>
       <div className="desc1">
         <h3>UPWORK</h3>
         <h4>Freelance</h4>

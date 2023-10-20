@@ -1,5 +1,4 @@
 import React, { useRef, useState } from "react";
-import { BrowserRouter as Router, Route } from "react-router-dom";
 import Header from "./components/Header";
 import Home from "./components/Home";
 import Experience from "./components/Experience";
@@ -13,10 +12,7 @@ import "./App.css";
 import Theme from "./components/Theme";
 
 function App() {
-  const [cssProp, setCssProp] = useState({
-    "--ptc": "#111111",
-    "--pbgc": "#eeeeee"
-  });
+  const [cssProp, setCssProp] = useState({});
 
   const homeRef = useRef(null);
   const experienceRef = useRef(null);
@@ -47,6 +43,7 @@ function App() {
   return (
     <div className="app-main" style={cssProp}>
       <Header scrollToSection={scrollToSection} />
+      <div id="progress"></div>
       <div className="app">
         <div ref={homeRef}>
           <Home />
@@ -68,7 +65,7 @@ function App() {
         <Contact />
       </div>
       <Footer />
-      <Theme setCssProp={setCssProp}/>
+      <Theme setCssProp={setCssProp} />
     </div>
   );
 }
