@@ -6,8 +6,8 @@ const themeColor = {
   "--primary-bg1": "#eeeeee",
   "--primary-bg3": "#ffffff",
   "--primary-text2": "#111111",
-  "--primary-text3": "#444444"
-}
+  "--primary-text3": "#444444",
+};
 
 const Theme = ({ setCssProp }) => {
   const [isDark, setIsDark] = useState(false);
@@ -29,13 +29,14 @@ const Theme = ({ setCssProp }) => {
         "--ptc": themeColor["--primary-text2"],
         "--pbgc": themeColor["--primary-bg1"],
         "--phc": themeColor["--primary-bg3"],
-        "--pt1": themeColor["--primary-text3"]
+        "--pt1": themeColor["--primary-text3"],
       });
     }
   };
 
   useEffect(() => {
     handleTheme();
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [isDark]);
 
   return (

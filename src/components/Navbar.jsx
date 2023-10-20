@@ -9,7 +9,25 @@ const navItems = [
   "contact",
 ];
 
-const Navbar = ({ handleNavItemClick, activeNavItem, screen }) => {
+const Navbar = ({
+  handleNavItemClick,
+  activeNavItem,
+  screen,
+  closeMobileMenu,
+}) => {
+  const onClick = (item) => {
+    if (screen === "mobile") {
+      closeMobileMenu();
+      setTimeout(() => {
+        handleNavItemClick(item);
+      }, 300);
+    } else {
+      setTimeout(() => {
+        handleNavItemClick(item);
+      }, 200);
+    }
+  };
+
   return (
     <ul
       className={
@@ -19,7 +37,7 @@ const Navbar = ({ handleNavItemClick, activeNavItem, screen }) => {
       {navItems.map((item) => (
         <li key={item}>
           <button
-            onClick={() => handleNavItemClick(item)}
+            onClick={() => onClick(item)}
             className={activeNavItem === item ? "nav-active" : ""}
           >
             {item}

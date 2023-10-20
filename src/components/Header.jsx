@@ -92,13 +92,15 @@ const Header = (props) => {
 
   return (
     <header
-      className={`header flex-row justify-between ${isScrolled ? "header-scrolled" : ""}`}
+      className={`header flex-row justify-between ${
+        isScrolled ? "header-scrolled" : ""
+      }`}
     >
       <div></div>
       {isMobile ? (
         <>
-          <button onClick={openMobileMenu}>
-            <span className="hamburger-icon">&#9776;</span>
+          <button className="hamburger-icon" onClick={openMobileMenu}>
+            <span>&#9776;</span>
           </button>
           <Sidebar
             isOpen={isMobileMenuOpen}

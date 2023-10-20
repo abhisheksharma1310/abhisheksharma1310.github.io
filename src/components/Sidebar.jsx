@@ -10,12 +10,15 @@ const Sidebar = ({
   return (
     <div className={`mobile-menu ${isOpen ? "open" : ""}`}>
       <div className="row-rev">
-        <button onClick={closeMobileMenu}>Close</button>
+        <button className="hamburger-icon" onClick={closeMobileMenu}>
+          Close
+        </button>
       </div>
       <Navbar
         screen="mobile"
         handleNavItemClick={handleNavItemClick}
         activeNavItem={activeNavItem}
+        closeMobileMenu={closeMobileMenu}
       />
     </div>
   );
