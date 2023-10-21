@@ -1,5 +1,6 @@
-import React from 'react'
-import Card from './Card'
+import React from "react";
+import Card from "./Card";
+import projects from "../data/projects";
 
 const Projects = () => {
   return (
@@ -8,13 +9,18 @@ const Projects = () => {
         <h2>Projects</h2>
       </div>
       <div className="s-area">
-        <Card/>
-        <Card/>
-        <Card/>
-        <Card/>
+        {projects?.map((project) => (
+          <Card
+            img={project?.img}
+            text1={project?.title}
+            text2={project?.description}
+            text3={project?.duration}
+            text4={project?.details}
+          />
+        ))}
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default Projects
+export default Projects;
