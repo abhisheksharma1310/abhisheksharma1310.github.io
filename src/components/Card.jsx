@@ -1,21 +1,15 @@
 import React from "react";
-import as1 from "../assets/images/restaurant.jpg";
 
-const Card = () => {
+const Card = ({ img, text1 = "", text2 = "", text3 = "", text4 = "" }) => {
   return (
     <article className="card">
-      <img className="card-img reveal-image" src={as1} alt="as"/>
+      <img className="card-img reveal-image" src={img} alt="as" />
       <div className="desc1">
-        <h3>UPWORK</h3>
-        <h4>Freelance</h4>
-        <p>2021-2023</p>
+        <h3>{text1}</h3>
+        <h4>{text2}</h4>
+        <p>{text3}</p>
         <br />
-        <p>
-          The value is a space-separated-list, where each value defines the
-          width of the respective column. If you want your grid layout to
-          contain 4 columns, specify the width of the 4 columns, or "auto" if
-          all columns should have the same width.
-        </p>
+        <p>{text4}</p>
       </div>
     </article>
   );

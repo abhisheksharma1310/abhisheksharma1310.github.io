@@ -332,8 +332,7 @@ section {
 .reveal-image {
   animation: auto linear reveal both;
   animation-timeline: view();
-  animation-range: entry 25% cover 50%;
-  z-index: 1;
+  animation-range: entry 25% cover 45%;
 }
 
 /*

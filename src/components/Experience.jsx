@@ -1,5 +1,6 @@
 import React from "react";
 import Card from "./Card";
+import experience from "../data/experience";
 
 const Experience = () => {
   return (
@@ -8,8 +9,15 @@ const Experience = () => {
         <h2>Experience</h2>
       </div>
       <div className="s-area">
-        <Card/>
-        <Card/>
+        {experience?.map((exp) => (
+          <Card
+            img={exp.img}
+            text1={exp.company}
+            text2={exp.position}
+            text3={exp.duration}
+            text4={exp.description}
+          />
+        ))}
       </div>
     </section>
   );
