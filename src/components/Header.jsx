@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Navbar from "./Navbar";
 import Sidebar from "./Sidebar";
+import logo from "../assets/images/my-logo.png";
 
 const Header = (props) => {
   const [activeNavItem, setActiveNavItem] = useState("home");
@@ -96,7 +97,9 @@ const Header = (props) => {
         isScrolled ? "header-scrolled" : ""
       }`}
     >
-      <div></div>
+      <div className="logo">
+        <img src={logo} alt="logo" />
+      </div>
       {isMobile ? (
         <>
           <button className="hamburger-icon" onClick={openMobileMenu}>
