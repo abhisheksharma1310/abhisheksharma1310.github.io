@@ -1,9 +1,9 @@
-import React from "react";
+import React, { memo } from "react";
 
 const Card = ({ img, text1 = "", text2 = "", text3 = "", text4 = "" }) => {
   return (
     <article className="card">
-      <img className="card-img reveal-image" src={img} alt="as" />
+      <img className="card-img reveal-image" src={img} alt="as" loading="lazy"/>
       <div className="desc1">
         <h3>{text1}</h3>
         <h4>{text2}</h4>
@@ -15,4 +15,4 @@ const Card = ({ img, text1 = "", text2 = "", text3 = "", text4 = "" }) => {
   );
 };
 
-export default Card;
+export default memo(Card);

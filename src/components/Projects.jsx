@@ -1,4 +1,4 @@
-import React from "react";
+import React, { memo } from "react";
 import Card from "./Card";
 import projects from "../data/projects";
 
@@ -24,4 +24,4 @@ const Projects = () => {
   );
 };
 
-export default Projects;
+export default memo(Projects);

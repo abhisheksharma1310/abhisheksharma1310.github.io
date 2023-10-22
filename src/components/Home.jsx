@@ -1,4 +1,4 @@
-import React from "react";
+import React, { memo } from "react";
 import SocialIcons from "./SocialIcons";
 import myPhoto1 from "../assets/images/abhishek-sharma.png";
 
@@ -12,10 +12,10 @@ const Home = () => {
         <SocialIcons/>
       </div>
       <div className="main-img flex-col flex-end">
-        <img className="round" src={myPhoto1} alt="me"/>
+        <img className="round" src={myPhoto1} alt="me" loading="lazy"/>
       </div>
     </section>
   );
 };
 
-export default Home;
+export default memo(Home);

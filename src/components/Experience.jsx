@@ -1,4 +1,4 @@
-import React from "react";
+import React, { memo } from "react";
 import Card from "./Card";
 import experience from "../data/experience";
 
@@ -24,4 +24,4 @@ const Experience = () => {
   );
 };
 
-export default Experience;
+export default memo(Experience);

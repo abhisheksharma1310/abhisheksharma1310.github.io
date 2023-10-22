@@ -1,4 +1,4 @@
-import React from "react";
+import React, { memo } from "react";
 import SocialIcons from "./SocialIcons";
 import Form from "./Form";
 
@@ -25,4 +25,4 @@ const Contact = ({setNotify}) => {
   );
 };
 
-export default Contact;
+export default memo(Contact);

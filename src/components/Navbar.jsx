@@ -1,4 +1,4 @@
-import React from "react";
+import React, { memo } from "react";
 
 const navItems = [
   "home",
@@ -48,4 +48,4 @@ const Navbar = ({
   );
 };
 
-export default Navbar;
+export default memo(Navbar);

@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { memo, useEffect, useState } from "react";
 import Dark from "../assets/icons/dark.svg";
 import Bright from "../assets/icons/bright.svg";
 
@@ -45,9 +45,10 @@ const Theme = ({ setCssProp }) => {
         className="theme-btn"
         src={isDark ? Bright : Dark}
         alt="theme-mode"
+        loading="lazy"
       />
     </div>
   );
 };
 
-export default Theme;
+export default memo(Theme);

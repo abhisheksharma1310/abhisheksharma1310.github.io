@@ -344,6 +344,8 @@ section {
   gap: 1rem;
 }
 .social-icon {
+  width: 40px;
+  height: 40px;
   background-color: var(--primary-bg2);
   padding: 10px;
 }

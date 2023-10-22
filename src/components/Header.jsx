@@ -1,9 +1,9 @@
-import React, { useEffect, useState } from "react";
+import React, { memo, useEffect, useState } from "react";
 import Navbar from "./Navbar";
 import Sidebar from "./Sidebar";
 import logo from "../assets/images/my-logo.png";
 
-const Header = (props) => {
+const Header = ({ scrollToSection }) => {
   const [activeNavItem, setActiveNavItem] = useState("home");
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
@@ -34,7 +34,7 @@ const Header = (props) => {
   const handleNavItemClick = (item) => {
     setActiveNavItem(item);
     // Scroll to the corresponding section
-    props.scrollToSection(item);
+    scrollToSection(item);
   };
 
   // Add event listeners for scrolling
@@ -99,7 +99,7 @@ const Header = (props) => {
       }`}
     >
       <div className="logo">
-        <img src={logo} alt="logo" />
+        <img src={logo} alt="logo" loading="lazy"/>
       </div>
       {isMobile ? (
         <>
@@ -124,4 +124,4 @@ const Header = (props) => {
   );
 };
 
-export default Header;
+export default memo(Header);

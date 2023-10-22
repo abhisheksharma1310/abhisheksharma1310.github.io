@@ -1,11 +1,11 @@
-import React from "react";
+import React, { memo } from "react";
 import achievements from "../data/achievements";
 
 const AchievementItem = ({ img, text1 = "", text2 = "", text3 = "" }) => {
   return (
     <article className="list flex-row justify-start">
       <div className="flex-col flex-center">
-        <img className="list-image" src={img} alt="as" />
+        <img className="list-image" src={img} alt="as" loading="lazy"/>
       </div>
       <div className="desc1">
         <h3>{text1}</h3>
@@ -37,4 +37,4 @@ const Achievements = () => {
   );
 };
 
-export default Achievements;
+export default memo(Achievements);

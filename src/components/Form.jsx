@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React, { memo, useRef } from "react";
 import emailjs from "@emailjs/browser";
 import { eData } from "../data/emailjs";
 
@@ -61,4 +61,4 @@ const Form = ({ setNotify }) => {
   );
 };
 
-export default Form;
+export default memo(Form);

@@ -1,11 +1,11 @@
-import React from "react";
+import React, { memo } from "react";
 import socailLinks from "../data/socialLinks";
 
 const SocialIcons = () => {
   return (
     <div className="flex-row width-m gap-1">
       {socailLinks.map((link) => {
-        const href = link.link[0] !== "h" ? "mailto:"+link.link : link.link; 
+        const href = link.link[0] !== "h" ? "mailto:" + link.link : link.link;
         return (
           <a
             key={link.link}
@@ -14,7 +14,12 @@ const SocialIcons = () => {
             rel="noreferrer"
             title={link.desc}
           >
-            <img className="social-icon round" src={link.icon} alt="link" width="40px" height="40px"/>
+            <img
+              className="social-icon round"
+              src={link.icon}
+              alt="link"
+              loading="lazy"
+            />
           </a>
         );
       })}
@@ -22,4 +27,4 @@ const SocialIcons = () => {
   );
 };
 
-export default SocialIcons;
+export default memo(SocialIcons);

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { memo } from "react";
 
 const Notification = () => {
   return (
@@ -10,4 +10,4 @@ const Notification = () => {
   );
 };
 
-export default Notification;
+export default memo(Notification);

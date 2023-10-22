@@ -1,4 +1,4 @@
-import React from "react";
+import React, { memo } from "react";
 import about from "../data/about";
 
 const About = () => {
@@ -8,7 +8,7 @@ const About = () => {
         <h2>About</h2>
       </div>
       <article className="flex-col flex-center">
-        <img className="about-img" src={about?.img} alt="as" width="500px" />
+        <img className="about-img" src={about?.img} alt="as" loading="lazy"/>
         <div className="desc1 flex-col flex-start gap-1">
           <>
             {about?.about
@@ -29,4 +29,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default memo(About);
