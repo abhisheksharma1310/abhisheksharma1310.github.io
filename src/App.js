@@ -15,6 +15,38 @@ import Notification from "./components/Notification";
 function App() {
   const [cssProp, setCssProp] = useState({});
   const [notify, setNotify] = useState(false);
+  const [scrollPostion, setScrollPostion] = useState(0);
+
+  
+  const listenToScrollEvent = () => {
+    document.addEventListener("scroll", () => {
+      requestAnimationFrame(() => {
+        calculateScrollDistance();
+      });
+    });
+  }
+
+  const calculateScrollDistance = () => {
+    const scrollTop = window.pageYOffset; // how much the user has scrolled by
+    const winHeight = window.innerHeight;
+    const docHeight = getDocHeight();
+
+    const totalDocScrollLength = docHeight - winHeight;
+    const postion = Math.floor(scrollTop / totalDocScrollLength * 100)
+    setScrollPostion(postion);
+  }
+
+  const getDocHeight = () => {
+    return Math.max(
+      document.body.scrollHeight, document.documentElement.scrollHeight,
+      document.body.offsetHeight, document.documentElement.offsetHeight,
+      document.body.clientHeight, document.documentElement.clientHeight
+    );
+  }
+
+  useEffect(() => {
+    listenToScrollEvent();
+  })
 
   const homeRef = useRef(null);
   const experienceRef = useRef(null);
@@ -55,7 +87,7 @@ function App() {
   return (
     <div className="app-main" style={cssProp}>
       <Header scrollToSection={scrollToSection} />
-      <div className="progress-scroll"></div>
+      <div className="progress-scroll" style={{"--scrollPostion": `${scrollPostion}%`}} ></div>
       {notify && <Notification />}
       <div className="app">
         <div ref={homeRef}>

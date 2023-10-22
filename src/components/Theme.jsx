@@ -10,7 +10,7 @@ const themeColor = {
 };
 
 const Theme = ({ setCssProp }) => {
-  const [isDark, setIsDark] = useState(false);
+  const [isDark, setIsDark] = useState(true);
 
   const handleClick = () => {
     setIsDark((p) => !p);
