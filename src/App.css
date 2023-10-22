@@ -137,6 +137,19 @@
 }
 
 /*
+* about
+*/
+#about {
+  padding-bottom: 4rem;
+  gap: 2rem;
+}
+.about-img {
+  width: 360px;
+  height: 200px;
+  margin-bottom: 1rem;
+}
+
+/*
 * Link
 */
 .btn-link {
@@ -318,6 +331,7 @@ section {
 }
 .desc1 p {
   color: var(--primary-text1);
+  font-family: "Roboto", sans-serif;
 }
 
 /*
@@ -437,6 +451,10 @@ section {
   }
   .desc1 h3 {
     font-size: 1.5rem;
+  }
+  /* about */
+  .about-img {
+    width: 90vw;
   }
   /* contact */
   #contact {
