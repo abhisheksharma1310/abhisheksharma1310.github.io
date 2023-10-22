@@ -9,8 +9,9 @@ const Projects = () => {
         <h2>Projects</h2>
       </div>
       <div className="s-area">
-        {projects?.map((project) => (
+        {projects?.map((project, ind) => (
           <Card
+            key={ind}
             img={project?.img}
             text1={project?.title}
             text2={project?.description}

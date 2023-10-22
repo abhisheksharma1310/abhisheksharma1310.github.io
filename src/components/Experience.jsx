@@ -9,8 +9,9 @@ const Experience = () => {
         <h2>Experience</h2>
       </div>
       <div className="s-area">
-        {experience?.map((exp) => (
+        {experience?.map((exp, ind) => (
           <Card
+            key={ind}
             img={exp.img}
             text1={exp.company}
             text2={exp.position}

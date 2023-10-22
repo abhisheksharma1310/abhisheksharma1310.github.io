@@ -23,8 +23,9 @@ const Achievements = () => {
         <h2>Achievements</h2>
       </div>
       <div className="flex-col flex-center gap-1">
-        {achievements?.map((ach) => (
+        {achievements?.map((ach, ind) => (
           <AchievementItem
+            key={ind}
             img={ach?.img}
             text1={ach?.title}
             text2={ach?.description}
