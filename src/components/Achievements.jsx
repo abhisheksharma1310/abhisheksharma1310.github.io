@@ -4,7 +4,7 @@ import achievements from "../data/achievements";
 const AchievementItem = ({ img, text1 = "", text2 = "", text3 = "" }) => {
   return (
     <article className="list flex-row justify-start">
-      <div className="icon-wrapper flex-col flex-center">
+      <div className="flex-col flex-center">
         <img className="list-image" src={img} alt="as" />
       </div>
       <div className="desc1">
@@ -18,7 +18,7 @@ const AchievementItem = ({ img, text1 = "", text2 = "", text3 = "" }) => {
 
 const Achievements = () => {
   return (
-    <section id="achievements" className="flex-col flex-center">
+    <section id="achievements" className="flex-col">
       <div className="s-head heading">
         <h2>Achievements</h2>
       </div>

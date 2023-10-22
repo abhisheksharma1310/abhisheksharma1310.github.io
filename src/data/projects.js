@@ -18,7 +18,7 @@ const projects = [
     title: "Memories Blog",
     description: "Memories web app for sharing memories",
     duration: "April 2023",
-    details: `This web application is a full-stack MERN project that allows users to share their memories with friends and family. It is built with React.js for the front-end, Node.js and Express.js for the back-end, and MongoDB Atlas Cloud for the database. The front-end and back-end communicate through REST APIs, which enable all CRUD (create, read, update, and delete) operations on the user and blog posts data. This web application demonstrates the use of modern web development technologies and best practices.`,
+    details: `This web application is a full-stack MERN project that allows users to share their memories with friends and family. It is built with React.js as front-end, Node.js and Express.js as back-end, and MongoDB Atlas Cloud as database. The front-end and back-end communicate through REST APIs, which enable all CRUD (create, read, update, and delete) operations on the user and blog posts data.`,
     img: "https://i.ibb.co/r0pdc8Y/memories-mockup-nobg.png",
   },
   {
