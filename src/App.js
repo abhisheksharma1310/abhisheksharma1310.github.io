@@ -55,7 +55,7 @@ function App() {
   return (
     <div className="app-main" style={cssProp}>
       <Header scrollToSection={scrollToSection} />
-      <div id="progress"></div>
+      <div className="progress-scroll"></div>
       {notify && <Notification />}
       <div className="app">
         <div ref={homeRef}>
