@@ -12,6 +12,9 @@
   background-color: var(--phc);
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
+.logo {
+  width: 20%;
+}
 .logo img {
   width: 150px;
   height: 30px;
@@ -409,6 +412,15 @@ section {
   .header {
     padding: 1rem;
   }
+  /* logo */
+  .logo {
+    width: 30%;
+  }
+  .logo img {
+    width: 100px;
+    height: 20px;
+  }
+  /* section */
   section {
     padding: 1rem;
     min-height: 85vh;
@@ -420,7 +432,7 @@ section {
       "main-desc";
     align-content: space-evenly;
     justify-content: center;
-    gap: 1rem;
+    gap: 2rem;
   }
   .main-header {
     align-items: center;
