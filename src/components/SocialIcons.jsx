@@ -5,7 +5,7 @@ const SocialIcons = () => {
   return (
     <div className="flex-row width-m gap-1">
       {socailLinks.map((link) => {
-        const href = link.link.charCodeAt(0) !== "h" ? "mailto:"+link.link : link.link; 
+        const href = link.link[0] !== "h" ? "mailto:"+link.link : link.link; 
         return (
           <a
             key={link.link}
