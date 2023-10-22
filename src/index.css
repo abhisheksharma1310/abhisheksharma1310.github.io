@@ -14,13 +14,17 @@
 * {
   margin: 0;
   box-sizing: border-box;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
 }
 
 body {
   margin: 0;
   overflow: auto;
   scroll-behavior: smooth;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -30,7 +34,7 @@ body {
 }
 
 .app {
-  padding:  0 7rem;
+  padding: 0 7rem;
 }
 
 /* scollbar width */
@@ -40,17 +44,17 @@ body {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: var(--primary-bg2); 
+  background: var(--primary-bg2);
 }
- 
+
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: var(--secondary-color4); 
+  background: var(--secondary-color4);
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: var(--primary-bg3); 
+  background: var(--primary-bg3);
 }
 
 code {

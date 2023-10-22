@@ -22,7 +22,7 @@ const Achievements = () => {
       <div className="s-head heading">
         <h2>Achievements</h2>
       </div>
-      <div className="flex-col flex-center gap-1">
+      <div className="flex-col gap-1">
         {achievements?.map((ach, ind) => (
           <AchievementItem
             key={ind}
