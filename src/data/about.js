@@ -10,7 +10,7 @@ const about = {
   I've had the privilege of harnessing the power of cloud services, including Firebase, GCP, AWS, and Azure. My journey in the tech world has also included tinkering with IoT devices like Arduino, Raspberry Pi, and Esp32. With over ten small projects and five large projects under my belt, I've honed my skills and understanding of UI/UX concepts and design tools like Figma. I'm well-versed in ensuring web app responsiveness, cross-device, and cross-browser compatibility, as well as accessibility for all users.
     ##
   Version control systems like Git, along with platforms like GitHub and Bitbucket, have been instrumental in my workflow. Additionally, I've had the privilege of creating CI/CD pipelines. Currently, I'm actively seeking new opportunities in the field.`,
-  resume: "https://drive.google.com/file/d/1-VjvVJYhyL9zJ8ex4FwSpfP050Rzy9V7/view?usp=sharing",
+  resume: "https://drive.google.com/drive/folders/1HHx54RtahMfw7LDjKWeXnD6NHBorWR7k?usp=sharing",
 };
 
 export default about;
