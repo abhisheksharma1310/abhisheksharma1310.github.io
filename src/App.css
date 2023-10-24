@@ -110,14 +110,14 @@
   justify-content: flex-start;
   align-items: center;
   gap: 1rem;
-  width: 75%;
+  width: 80%;
 }
 .card:nth-child(odd) {
-  align-self: start;
+  align-self: flex-start;
 }
 .card:nth-child(even) {
   flex-direction: row-reverse;
-  align-self: end;
+  align-self: flex-end;
   text-align: right;
 }
 .card-img {
@@ -340,11 +340,19 @@ section {
 .width-m {
   width: max-content;
 }
-.w-100{
-  width: 80%;
+.w-ach{
+  width: 90%;
 }
 .gap-1 {
   gap: 1rem;
+}
+.h-space {
+  display: inline-block;
+  width: 1rem;
+}
+.v-space {
+  display: block;
+  height: .5rem;
 }
 .social-icon {
   width: 20px;
@@ -394,6 +402,9 @@ section {
 .desc1 p {
   color: var(--primary-text1);
   font-family: "Roboto", sans-serif;
+}
+.link-icon {
+  color: var(--ptc);
 }
 
 /*
@@ -492,5 +503,9 @@ section {
     height: 200px;
     margin-top: -100px; /* Negative half of height. */
     margin-left: -100px; /* Negative half of width. */
+  }
+  /* others */
+  .w-ach {
+    width: 100%;
   }
 }

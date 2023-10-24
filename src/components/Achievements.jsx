@@ -22,7 +22,7 @@ const AchievementItem = ({
           {text3}{" "}
           <span>
             <a href={link} target="_blank" rel="noreferrer">
-              <FontAwesomeIcon icon={faLink} />
+              <FontAwesomeIcon className="link-icon" icon={faLink} />
             </a>
           </span>
         </p>
@@ -33,11 +33,11 @@ const AchievementItem = ({
 
 const Achievements = () => {
   return (
-    <section id="achievements" className="flex-col">
+    <section id="achievements" className="flex-col flex-center">
       <div className="s-head heading">
         <h2>Achievements</h2>
       </div>
-      <div className="flex-col gap-1">
+      <div className="flex-col gap-1 w-ach flex-center">
         {achievements?.map((ach, ind) => (
           <AchievementItem
             key={ind}
