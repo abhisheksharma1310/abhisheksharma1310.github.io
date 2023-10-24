@@ -1,25 +1,20 @@
 import React, { memo } from "react";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import socailLinks from "../data/socialLinks";
 
 const SocialIcons = () => {
   return (
     <div className="flex-row width-m gap-1">
       {socailLinks.map((link) => {
-        const href = link.link[0] !== "h" ? "mailto:" + link.link : link.link;
         return (
           <a
-            key={link.link}
-            href={href}
+            key={link?.link}
+            href={link?.link}
             target="_blank"
             rel="noreferrer"
-            title={link.desc}
+            title={link?.desc}
           >
-            <img
-              className="social-icon round"
-              src={link.icon}
-              alt="link"
-              loading="lazy"
-            />
+            <FontAwesomeIcon className="social-icon round" icon={link?.icon} />
           </a>
         );
       })}
