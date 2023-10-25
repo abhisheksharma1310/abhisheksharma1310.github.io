@@ -37,6 +37,10 @@ body {
   padding: 0 7rem;
 }
 
+p {
+  text-wrap: pretty;
+}
+
 /* scollbar width */
 ::-webkit-scrollbar {
   width: 10px;

@@ -1,70 +1,67 @@
-# Getting Started with Create React App
+# Portfolio Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a personal portfolio website that showcases the experience, projects, achievements, about, and contact information.
 
-## Available Scripts
+<p align="center">
+<img src="https://i.ibb.co/Sy6PnHh/portfolio-mockup-removebg-preview.png" alt="portfolio-mockup-removebg-preview" border="0">
+</p>
 
-In the project directory, you can run:
+ Live Demo: [https://abhisheksharma1310.github.io/](https://abhisheksharma1310.github.io/)
 
-### `npm start`
+## Overview
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+This portfolio website serves as an online presence for me, providing information about professional experience, projects, achievements and about me. It also includes a contact section for reaching out.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Features
 
-### `npm test`
+- **Home Section:** The homepage with a hero section provides an introduction.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Experience Section:** Displays details of my professional experience, including roles, companies, and descriptions.
 
-### `npm run build`
+- **Projects Section:** Showcases the projects I have worked on, including descriptions and links.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Achievements Section:** Highlights my achievements.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **About Section:** Offers a more personal details.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **Contact Section:** Provides contact information and a form for reaching out to me.
 
-### `npm run eject`
+- **Responsive Design:** The website is designed to be responsive, ensuring a consistent and user-friendly experience on various screen sizes and devices.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- **Accessibility and Compatibility:** The website is designed to be accessible to all users and is compatible with different browsers and operating systems.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- **Aesthetics and Animations:** The website is designed with an appealing aesthetic and subtle animations to enhance user engagement.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- **Performance:** Efforts have been made to optimize the website's performance.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Getting Started
 
-## Learn More
+To run this project locally, follow these steps:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. Clone the GitHub repository:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+   ```bash
+   git clone https://github.com/abhisheksharma1310/abhisheksharma1310.github.io.git
+   ```
 
-### Code Splitting
+2. Open the project directory:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+   ```bash
+   cd abhisheksharma1310.github.io
+   ```
 
-### Analyzing the Bundle Size
+3. Run the app:
+   ```bash
+   npm run start
+   ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Technologies Used
 
-### Making a Progressive Web App
+- HTML
+- CSS
+- JavaScript
+- ReactJs
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Contributing
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Contributions to this project are welcome. You can fork the repository, make changes, and submit a pull request.
