@@ -3,7 +3,7 @@
 This is a personal portfolio website that showcases the experience, projects, achievements, about, and contact information.
 
 <p align="center">
-<img src="https://i.ibb.co/Sy6PnHh/portfolio-mockup-removebg-preview.png" alt="portfolio-mockup-removebg-preview" border="0">
+<img src="https://i.ibb.co/N9z8LsL/portfolio-mockup-rbg.png" alt="portfolio-mockup-rbg" border="0">
 </p>
 
  Live Demo: [https://abhisheksharma1310.github.io/](https://abhisheksharma1310.github.io/)

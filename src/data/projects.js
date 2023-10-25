@@ -1,5 +1,16 @@
 const projects = [
   {
+    title: "Portfolio",
+    description: "A responsive Portfolio website using React",
+    duration: "Oct 2023",
+    details: `Developed a personal portfolio website to showcase professional experience, projects, accomplishments, and contact information. The responsive, aesthetically designed site offers an interactive user experience and demonstrates skills in web development, design, and performance optimization.`,
+    img: "https://i.ibb.co/N9z8LsL/portfolio-mockup-rbg.png",
+    links: {
+      github: "https://github.com/abhisheksharma1310/abhisheksharma1310.github.io",
+      demo: "https://abhisheksharma1310.github.io/",
+    },
+  },
+  {
     title: "Little Lemon Restaurant",
     description: "Online Table Reservation and Food Ordering Web App",
     duration: "Sep 2023",
