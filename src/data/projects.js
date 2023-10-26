@@ -18,7 +18,7 @@ const projects = [
     img: "https://i.ibb.co/R3sYZKR/little-lemon-mockup-nobg.png",
     links: {
       github: "https://github.com/abhisheksharma1310/little-lemon",
-      demo: "https://main--adorable-salmiakki-6c71a9.netlify.app/",
+      demo: "https://little-lemon-restaurant-web.netlify.app/",
     },
   },
   {
@@ -40,7 +40,7 @@ const projects = [
     img: "https://i.ibb.co/r0pdc8Y/memories-mockup-nobg.png",
     links: {
       github: "https://github.com/abhisheksharma1310/memories_blog",
-      demo: "https://famous-nasturtium-884aa6.netlify.app/",
+      demo: "https://memoriesblogposts.netlify.app/",
     },
   },
   {
