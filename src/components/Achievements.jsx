@@ -37,7 +37,7 @@ const Achievements = () => {
       <div className="s-head heading">
         <h2>Achievements</h2>
       </div>
-      <div className="flex-col gap-1 w-ach flex-center">
+      <div className="flex-col gap-1 w-ach flex-start">
         {achievements?.map((ach, ind) => (
           <AchievementItem
             key={ind}

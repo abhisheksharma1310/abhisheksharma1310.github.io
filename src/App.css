@@ -455,6 +455,7 @@ section {
     gap: 2rem;
   }
   .main-header {
+    text-align: center;
     align-items: center;
     gap: 0.5rem;
   }
@@ -484,7 +485,10 @@ section {
   }
   /* Common */
   .heading {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+  }
+  .heading-w {
+    font-size: 1.2rem;
   }
   .desc1 h3 {
     font-size: 1.5rem;
@@ -492,6 +496,10 @@ section {
   /* about */
   .about-img {
     width: 90vw;
+  }
+  /* form */
+  form {
+    width: 90%;
   }
   /* contact */
   #contact {

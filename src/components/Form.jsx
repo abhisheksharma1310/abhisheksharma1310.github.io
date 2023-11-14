@@ -25,7 +25,7 @@ const Form = ({ setNotify }) => {
   };
 
   return (
-    <form className="flex-col" ref={form} onSubmit={sendEmail}>
+    <form className="flex-col contact-form" ref={form} onSubmit={sendEmail}>
       <input
         type="text"
         name="name"
