@@ -2,8 +2,8 @@ const projects = [
   {
     title: "Data Visualization",
     description: "A responsive Data Visualization Web App using React",
-    duration: "Oct 2023",
-    details: `Developed a versatile web application, designed to seamlessly connect and display data from various protocols including Serial Port, HTTP, MQTT, WebSocket and Socket.io. Whether you are a developer, engineer, or hobbyist, our app provides a user-friendly interface to access and visualize your data in real-time.`,
+    duration: "September 2024",
+    details: `Developed a versatile web application, designed to seamlessly connect and display data from various protocols including Serial Port, HTTP, MQTT, WebSocket and Socket.io. Key features include Multi-Protocol Support, Real-Time Data Display, User-Friendly Interface, Cross-Platform Compatibility and PWA Support.`,
     img: "https://i.ibb.co/5kN7B8n/Data-Visualization-app-mockup.png",
     links: {
       github: "https://github.com/abhisheksharma1310/data-visualizer",
@@ -13,7 +13,7 @@ const projects = [
   {
     title: "Portfolio",
     description: "A responsive Portfolio website using React",
-    duration: "Oct 2023",
+    duration: "October 2023",
     details: `Developed a personal portfolio website to showcase professional experience, projects, accomplishments, and contact information. The responsive, aesthetically designed site offers an interactive user experience and demonstrates skills in web development, design, and performance optimization.`,
     img: "https://i.ibb.co/N9z8LsL/portfolio-mockup-rbg.png",
     links: {
@@ -25,7 +25,7 @@ const projects = [
   {
     title: "Little Lemon Restaurant",
     description: "Online Table Reservation and Food Ordering Web App",
-    duration: "Sep 2023",
+    duration: "September 2023",
     details: `Developed a dynamic web application using React, Redux Toolkit, and React-Router-DOM to enable users to reserve tables and order food online for Little Lemon Restaurant. Implemented user-friendly interfaces for exploring menus, making reservations, and placing orders. Utilized Browser Local Storage API for seamless data handling. Enhanced user experience with geolocation and progressive web app features.`,
     img: "https://i.ibb.co/R3sYZKR/little-lemon-mockup-nobg.png",
     links: {
