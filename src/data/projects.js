@@ -3,7 +3,7 @@ const projects = [
     title: "Data Visualization",
     description: "A responsive Data Visualization Web App using React",
     duration: "Oct 2023",
-    details: `Developed a versatile web application, designed to seamlessly connect and display data from various protocols including Serial Port, HTTP, MQTT, WebSocket and Socket.io. Whether you’re a developer, engineer, or hobbyist, our app provides a user-friendly interface to access and visualize your data in real-time.`,
+    details: `Developed a versatile web application, designed to seamlessly connect and display data from various protocols including Serial Port, HTTP, MQTT, WebSocket and Socket.io. Whether you are a developer, engineer, or hobbyist, our app provides a user-friendly interface to access and visualize your data in real-time.`,
     img: "https://i.ibb.co/5kN7B8n/Data-Visualization-app-mockup.png",
     links: {
       github: "https://github.com/abhisheksharma1310/data-visualizer",
