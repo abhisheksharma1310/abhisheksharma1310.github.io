@@ -7,7 +7,6 @@ const projects1 = [
     img: "https://abhisheksharma1310.github.io/myportfolio-old/images/azure.png",
     links: {
       github: "https://lab.inversion.co.in/oncloud/managing_user_traffic",
-      demo: "https://abhisheksharma1310.github.io/data-visualizer",
     },
   },
   {
