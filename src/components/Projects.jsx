@@ -1,13 +1,9 @@
 import React, { memo } from "react";
 import Card from "./Card";
-import projects from "../data/projects";
 
-const Projects = () => {
+const Projects = ({ projects }) => {
   return (
-    <section id="projects" className="flex-col">
-      <div className="s-head heading">
-        <h2>Projects</h2>
-      </div>
+    <>
       <div className="s-area">
         {projects?.map((project, ind) => (
           <Card
@@ -21,7 +17,7 @@ const Projects = () => {
           />
         ))}
       </div>
-    </section>
+    </>
   );
 };
 

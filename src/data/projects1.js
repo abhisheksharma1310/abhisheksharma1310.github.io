@@ -1,4 +1,4 @@
-const projects = [
+const projects1 = [
   {
     title: "Data Visualization",
     description: "A responsive Data Visualization Web App using React",
@@ -79,4 +79,4 @@ const projects = [
   },
 ];
 
-export default projects;
+export default projects1;
