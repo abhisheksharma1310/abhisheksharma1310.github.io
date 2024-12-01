@@ -1,5 +1,16 @@
 const projects1 = [
   {
+    title: "Data Logger",
+    description: "A responsive data logger app",
+    duration: "November 2024",
+    details: `This web application provides an all-encompassing solution for automated data logging and real-time visualization, featuring flexible storage options, historical data access, automated log deletion, customizable chart visualizations, and versatile data export capabilities, all managed through an intuitive browser-based configuration interface and compatible with a wide range of devices and operating systems.`,
+    img: "https://i.ibb.co/dGRxd7N/data-logger-mockup-removebg-preview.png",
+    links: {
+      github: "https://github.com/abhisheksharma1310/data-logger",
+      demo: "https://abhisheksharma1310.github.io/data-logger",
+    },
+  },
+  {
     title: "Data Visualization",
     description: "A responsive Data Visualization Web App using React",
     duration: "September 2024",
