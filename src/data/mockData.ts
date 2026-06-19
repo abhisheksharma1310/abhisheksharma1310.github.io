@@ -4,12 +4,11 @@ export const personalInfo = {
   name: "Abhishek Sharma",
   avatarUrl: "https://res.cloudinary.com/dek8yhyjm/image/upload/favicon_uxzwgh",
   profilePic: "https://res.cloudinary.com/dek8yhyjm/image/upload/copy_of_abhishek_sharma-1c_zfm9yw", 
-  title: "Full-Stack Embedded Architect & DevOps Engineer",
+  title: "Full-Stack Developer & IoT Engineer",
   tagline: "Bridging the physical-digital divide through highly robust web architecture, real-time IoT ecosystems, and auto-scaling cloud infrastructure.",
   bioParagraphs: [
-    "I am a versatile software engineer with deep expertise across the complete technology canvas. Over the years, my engineering ethos has evolved around building secure, high efficiency systems ranging from low-power microcontroller firmwares to ultra-responsive React interfaces and fullstack IoT application with databases and cloud deployment.",
-    "I thrive on tackling multi-faceted architectural challenges. Whether optimizing database query pipelines carrying millions of telemetry records, establishing reliable hardware-connected messaging buses, or orchestrating zero-downtime Blue/Green deployments, I build with strict performance, type-safety, and operational observability in mind.",
-    "Driven by the passion to build tactile, impactful products, I constantly explore the thresholds of edge computation, high-performance database, and reactive web UI frameworks."
+    "I am a versatile software engineer with deep expertise across the complete hardware-to-cloud canvas. My engineering ethos centers on building resilient, full-stack IoT ecosystems and highly interactive web platforms. Over my career, I have specialized in developing low-latency telemetry pipelines, secure edge computing layers, and scalable cloud-native architectures that support complex device networks.",
+    "Throughout my experience founding SaaS products and engineering robotics platforms, I have scaled systems from the ground up. Whether building custom Aedes MQTT broker validation bridges, integrating Raspberry Pi gateways with cloud backends, or optimizing web performance using React, I deliver. My commitment is to write clean, maintainable code backed by strict performance metrics, reliable data pipelines, and robust automated deployments.",
   ],
 };
 

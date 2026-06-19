@@ -29,7 +29,7 @@ export default function Skills() {
             Specialized Engineering Domains
           </p>
           <p className="text-white/50 text-sm mt-4 leading-relaxed font-sans max-w-xl mx-auto">
-            Hands-on technical mastery spanning across distributed infrastructure orchestration layers, reactive real-time state machines, all the way down to microsecond-sensitive hardware kernels.
+            Architecting end-to-end ecosystems from high-performance telemetry pipelines to ultra-responsive Next.js frontends and bare-metal IoT gateways.
           </p>
         </div>
 

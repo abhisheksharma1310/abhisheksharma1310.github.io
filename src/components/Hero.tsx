@@ -42,15 +42,12 @@ export default function Hero() {
                 
                 {/* Minimalist overlay details */}
                 <div className="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black via-black/40 to-transparent p-5 pt-16">
-                  <span className="font-mono text-[9px] text-white/50 tracking-widest uppercase block mb-1">
-                    System Operator // Active
-                  </span>
                   <p className="font-serif text-lg text-white italic">
                     {personalInfo.name}
                   </p>
-                  <p className="font-mono text-[10px] text-white/30 mt-0.5">
-                    HOST ID: 813-SHARMA
-                  </p>
+                  <span className="font-mono text-[9px] text-white/50 tracking-widest uppercase block mb-1">
+                    Full-Stack Developer & IoT Engineer
+                  </span>
                 </div>
               </div>
             </div>
@@ -67,7 +64,7 @@ export default function Hero() {
             {/* Tagline Badge */}
             <div className="inline-flex items-center space-x-2 bg-white/5 border border-white/10 text-[#A1A1AA] px-3.5 py-1 rounded-full text-[10px] uppercase tracking-widest mb-6 w-fit select-none">
               <span className="flex h-1.5 w-1.5 rounded-full bg-white/80 animate-pulse" />
-              <span>Full Stack Engineer & IoT Architect</span>
+              <span>Full-Stack Developer & IoT Engineer</span>
             </div>
 
             <h1 className="font-serif text-5xl font-light leading-[1.1] text-white sm:text-6xl lg:text-7xl mb-6">
