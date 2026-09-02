@@ -88,7 +88,7 @@ export const experiences: Experience[] = [
   {
     id: "exp-2",
     date: "April 2023 - Present",
-    company: "Learncode.live",
+    company: "Codenexium.com",
     role: "Founder & Developer",
     type: "Full-time",
     description: [
@@ -148,12 +148,12 @@ export const products: ProjectProduct[] = [
   },
   {
     id: "prod-3",
-    name: "Learn Code Live",
+    name: "Codenexium Edtech Platform",
     shortDesc: "Interactive full-stack e-learning ecosystem featuring in-browser code sandboxes and physical hardware simulators.",
-    longDesc: "Learn Code Live is a specialized technical education platform serving massive curriculum paths spanning software engineering, data structures, and embedded engineering. It features an advanced workspace integrating a Monaco Editor engine, PortableText rendering pipelines, and live preview consoles. The platform features an interactive hardware lab supporting over 60 physical Arduino sensor module profiles, letting students write, execute, and preview micro-controller code architectures fully inside modern browser layers.",
+    longDesc: "Codenexium Edtech Platform is a specialized technical education platform serving massive curriculum paths spanning software engineering, data structures, and embedded engineering. It features an advanced workspace integrating a Monaco Editor engine, PortableText rendering pipelines, and live preview consoles. The platform features an interactive hardware lab supporting over 60 physical Arduino sensor module profiles, letting students write, execute, and preview micro-controller code architectures fully inside modern browser layers.",
     photoUrl: "https://res.cloudinary.com/dek8yhyjm/image/upload/learncodelive-main_gnexkt", // Coding/Education aesthetic
     videoUrl: "https://res.cloudinary.com/dek8yhyjm/video/upload/learncodelive-demo_wxwai1",
-    links: { live: "https://learncode.live" },
+    links: { live: "https://codenexium.com" },
     type: "frontend"
   },
   {

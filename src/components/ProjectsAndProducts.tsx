@@ -348,7 +348,7 @@ export default function ProjectsAndProducts() {
                           className="flex items-center justify-between w-full rounded bg-white hover:bg-white/90 text-black font-sans text-xs font-semibold uppercase tracking-wider px-4 py-2.5 transition-all text-center"
                           id="modal-live-link"
                         >
-                          <span>Terminal Live</span>
+                          <span>Live</span>
                           <LucideIcon name="ExternalLink" size={11} className="text-black" />
                         </a>
                       )}
